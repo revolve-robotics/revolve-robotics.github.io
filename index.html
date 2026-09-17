@@ -244,11 +244,6 @@
                       <sup>2</sup> Laboratory of Cross Mechanics and Intelligent Systems
                     </span>
                   
-                    <div class="venue-line" style="margin-top:6px;">
-                      <span class="venue-name" style="font-style: italic;">ICRA</span>
-                      <span class="venue-status"> 2026 (Accepted)</span>
-                    </div>
-                  
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                     <span class="eql-cntrb"><small><br><sup>†</sup>Corresponding Author</small></span>
                   </div>
@@ -316,22 +311,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            This paper presents RoboMatch, a novel unified
-teleoperation platform for mobile manipulation with an automatching network architecture, designed to tackle long-horizon
-tasks in dynamic environments. Our system enhances teleoperation performance, data collection efficiency, task accuracy,
-and operational stability. The core of RoboMatch is a cockpit style control interface that enables synchronous operation of
-the mobile base and dual arms, significantly improving control
-precision and data collection. Moreover, we introduce the
-Proprioceptive-Visual Enhanced Diffusion Policy (PVE-DP),
-which leverages Discrete Wavelet Transform (DWT) for multi scale visual feature extraction and integrates high-precision
-IMUs at the end-effector to enrich proprioceptive feedback,
-substantially boosting fine manipulation performance. Furthermore, we propose an Auto-Matching Network (AMN) architecture that decomposes long-horizon tasks into logical sequences
-and dynamically assigns lightweight pre-trained models for
-distributed inference. Experimental results demonstrate that
-our approach improves data collection efficiency by over 20%,
-increases task success rates by 20–30% with PVE-DP, and
-enhances long-horizon inference performance by approximately
-40% with AMN, offering a robust solution for complex manipulation tasks.
+            Recent advances in data-driven robot manipulation policies have substantially improved task execution and generalization. However, real-world deployment still relies heavily on humans for failure assessment, correction, and environment reset, while models often fail to continually learn from failures and corrective experience. We present REVOLVE (Robot Evolving via Orchestrated Loops, Verification, and Experience), an automated closed-loop framework for evolving robot manipulation with minimal human intervention. Built on a unified software platform, REVOLVE integrates data collection, policy training and deployment, failure recovery, and continual learning into a single closed-loop workflow. Its Automated Reset and Correction (ARC) architecture automatically resets the environment and intervenes to correct policy failures. Dual-Loop Evolution (DLE) continually improves the manipulation policy and agent by feeding real-world interaction and failure--correction data back into policy learning and using an external mismatch memory to refine agent judgments. Experiments across four real-world manipulation tasks show that, after five iterations, REVOLVE improves average policy success rate by 18.5% and agent judgment accuracy by 8.5%, while reducing human effort in data collection and deployment testing by 94.4% and 95.1%, respectively. These results demonstrate that REVOLVE transforms real-world deployment into a closed-loop learning process that continually accumulates and uses execution experience, enabling continual evolution of both the policy and supervisory model with substantially less human intervention.
           </p>
         </div>
       </div>
